@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    font-size: 1.3rem;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(17, 17, 104);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+nav ul li a:hover{
+    color: rgb(138, 138, 206);
+    font-size: 1.04rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+
+.leftsec{
+    font-size: 2.2rem;
+}
+
+.leftsec .btn{
+    padding: 12px;
+    background-color: #11367a;
+    color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightsec img{
+    width: 70%;
+    margin: 50px 0;
+}
+
+.blue{
+    color: blueviolet;
+}
+
+.gray{
+    color: gray;
+}
+
+#element{
+    color: rgb(97, 97, 184);
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+main hr{
+    border: 0;
+    background: #5e79aa;
+    height: 1.2px;
+    margin: 30px 70px;
+    margin-top: 100px;
+}
+
+.secondsection .box{
+    background: white;
+    width: 150vh;
+    height: 1px;
+    margin: 30px 0;
+}
+
+.secondsection .vertical{
+    margin: 0 50px;
+    padding: 20px;
+}
+
+.secondsection .box .vertical button{
+    padding: 5px;
+    background-color: #11367a;
+    color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(1, 1, 22);
+}
+
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 200px;
+}
+
+footer .footer-text{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.thirdsection .box{
+    background: white;
+    width: 150vh;
+    height: 1px;
+    margin: 30px 0;
+}
+
+.thirdsection .box p{
+    margin: 0 50px;
+    padding: 20px;
+}
